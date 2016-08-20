@@ -1,0 +1,40 @@
+package br.com.fiap.servlet;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import br.com.fiap.entity.Funcionarios;
+
+@WebServlet("/funcionarios")
+public class ServletFuncionarios extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    public ServletFuncionarios() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		Funcionarios func = new Funcionarios();
+		
+		func.setCpf(Integer.parseInt(request.getParameter("cpf")));
+		func.setNome(request.getParameter("nome"));
+		func.setCargo(request.getParameter("cargo"));
+		func.setSalario(Double.parseDouble(request.getParameter("salario")));
+		func.setIrpf(Double.parseDouble(request.getParameter("irpf")));
+		func.setInss(Double.parseDouble(request.getParameter("inss")));
+		
+		doGet(request, response);
+	}
+
+}

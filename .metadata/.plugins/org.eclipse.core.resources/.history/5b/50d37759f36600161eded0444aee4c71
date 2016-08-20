@@ -1,0 +1,12 @@
+package br.com.fiap.bean;
+
+import javax.ejb.Stateless;
+
+@Stateless
+public class FuncionariosBean implements FuncionariosBeanRemote {
+
+    public FuncionariosBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}

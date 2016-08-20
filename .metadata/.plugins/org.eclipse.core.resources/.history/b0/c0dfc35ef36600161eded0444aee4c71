@@ -1,0 +1,26 @@
+package br.com.fiap.bean;
+
+import javax.ejb.Stateless;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import br.com.fiap.entity.Funcionarios;
+
+@Stateless
+public class FuncionariosBean implements FuncionariosBeanRemote {
+
+	@PersistenceContext(unitName="fiapPU")
+	private EntityManager em;
+
+	@Override
+	public void add(Funcionarios livro) {
+		em.persist(livro);
+	}
+
+	@Override
+	public Funcionarios consulta(int cpf) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,34 @@
+package br.com.fiap.bean;
+
+import java.util.List;
+
+import javax.ejb.Stateful;
+
+import br.com.fiap.interfaces.Galera;
+
+@Stateful
+public class GaleraBean implements Galera{
+
+	private List<String> nome;
+	
+	public List<String> getNome() {
+		return nome;
+	}
+
+	public void setNome(List<String> nome) {
+		this.nome = nome;
+	}
+
+	@Override
+	public List<String> buscarNomes() {
+		
+		return null;
+	}
+
+	@Override
+	public void incluirNome(String nome) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package br.com.fiap.ejbws;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+
+import br.com.fiap.entity.Livros;
+
+public class LivrosWebServiceImpl implements LivrosWebService{
+
+	@PersistenceContext(unitName="fiapPU")
+	private EntityManager em;
+	
+	@Override
+	public void add(Livros livro) {
+		em.persist(livro);
+	}
+
+	@Override
+	public List<Livros> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
