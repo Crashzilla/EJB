@@ -1,0 +1,22 @@
+package br.com.fiap.mdb;
+
+import javax.ejb.ActivationConfigProperty;
+import javax.ejb.MessageDriven;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+
+@MessageDriven(activationConfig = {
+		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
+		@ActivationConfigProperty(propertyName = "destination", propertyValue = "queue/ExemploQueue") })
+public class LivrosMDB implements MessageListener {
+
+	public LivrosMDB() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void onMessage(Message message) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

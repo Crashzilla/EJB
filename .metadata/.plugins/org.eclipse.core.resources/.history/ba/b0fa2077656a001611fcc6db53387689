@@ -1,0 +1,14 @@
+package br.com.fiap.schedule;
+
+public class Schedule {
+
+	public Schedule() {
+
+	}
+
+	@Schedule(second = "*/5", minute = "*", hour = "*")
+	public void agendar() {
+		System.out.println("[" + new Date() + "]");
+	}
+
+}

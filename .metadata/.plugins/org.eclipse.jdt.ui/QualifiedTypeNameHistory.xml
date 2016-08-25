@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="br.com.fiap.interfaces.FolhaPagamento"/>
-<fullyQualifiedTypeName name="javax.ejb.Stateless"/>
 <fullyQualifiedTypeName name="javax.ejb.Local"/>
 <fullyQualifiedTypeName name="br.com.fiap.interfaces.CalculadoraLocal"/>
 <fullyQualifiedTypeName name="javax.ejb.Stateful"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="br.com.fiap.interfaces.Galera"/>
 <fullyQualifiedTypeName name="javax.ejb.EJB"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Encoded"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
@@ -27,14 +25,36 @@
 <fullyQualifiedTypeName name="javax.jws.WebMethod"/>
 <fullyQualifiedTypeName name="br.com.fiap.ws.CartaoWebServiceProxy"/>
 <fullyQualifiedTypeName name="br.com.fiap.ws.CartaoWebService"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="br.com.fiap.exemplos.jaxws.Conversor"/>
 <fullyQualifiedTypeName name="br.com.fiap.exemplos.jaxws.ConversorLocator"/>
 <fullyQualifiedTypeName name="br.com.fiap.exemplos.jaxws.ConversorPortType"/>
 <fullyQualifiedTypeName name="javax.xml.rpc.ServiceException"/>
-<fullyQualifiedTypeName name="br.com.fiap.ejbws.LivrosWebService"/>
-<fullyQualifiedTypeName name="br.com.fiap.entity.Livros"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.ejb.Remote"/>
+<fullyQualifiedTypeName name="br.com.fiap.ejbws.LivrosWebService"/>
 <fullyQualifiedTypeName name="javax.jws.WebService"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="javax.jms.JMSException"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="javax.jms.TextMessage"/>
+<fullyQualifiedTypeName name="br.com.fiap.mdb.classes.Cliente"/>
+<fullyQualifiedTypeName name="javax.ejb.Stateless"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="javax.ejb.Asynchronous"/>
+<fullyQualifiedTypeName name="javax.interceptor.InvocationContext"/>
+<fullyQualifiedTypeName name="javax.interceptor.AroundInvoke"/>
+<fullyQualifiedTypeName name="javax.interceptor.Interceptor"/>
+<fullyQualifiedTypeName name="javax.interceptor.Interceptors"/>
+<fullyQualifiedTypeName name="br.com.fiap.interceptor.MonitorInterceptor"/>
+<fullyQualifiedTypeName name="br.com.fiap.bean.LivrosBean"/>
+<fullyQualifiedTypeName name="javax.jms.Connection"/>
+<fullyQualifiedTypeName name="javax.annotation.Resource"/>
+<fullyQualifiedTypeName name="javax.jms.Queue"/>
+<fullyQualifiedTypeName name="javax.jms.ConnectionFactory"/>
+<fullyQualifiedTypeName name="javax.jms.Session"/>
+<fullyQualifiedTypeName name="javax.jms.MessageProducer"/>
+<fullyQualifiedTypeName name="javax.jms.ObjectMessage"/>
+<fullyQualifiedTypeName name="br.com.fiap.entity.Livros"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="javax.ejb.Schedule"/>
 </qualifiedTypeNameHistroy>

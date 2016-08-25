@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="281" key="DIALOG_X_ORIGIN"/>
+		<item value="247" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Bound data source [java:/jdbc/fiap]" key="selection"/>
+		<item value="Bound messaging object to jndi name java:" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="Bound data source [java:/jdbc/fiap]"/>
-			<item value="Bean!"/>
-			<item value="FuncionariosBean"/>
-			<item value="FuncionariosBean!"/>
-			<item value="FuncionarioBean!"/>
-			<item value="jdbc/fiap"/>
+			<item value="package br.com.fiap.schedule;"/>
+			<item value="package br.com.fiap.servlet;"/>
+			<item value="Bound messaging object to jndi name java:"/>
+			<item value="Started message driven bean"/>
+			<item value="Bound messaging object to jndi name java:/"/>
+			<item value="Bound messaging object to jndi name"/>
+			<item value="bound messa"/>
+			<item value="bound mess"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -22,7 +28,7 @@
 		<item value="257" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="381" key="DIALOG_HEIGHT"/>
-		<item value="652" key="DIALOG_X_ORIGIN"/>
-		<item value="165" key="DIALOG_Y_ORIGIN"/>
+		<item value="660" key="DIALOG_X_ORIGIN"/>
+		<item value="228" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

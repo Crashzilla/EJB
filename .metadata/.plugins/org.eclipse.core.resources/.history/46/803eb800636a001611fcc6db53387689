@@ -1,0 +1,37 @@
+package br.com.fiap.mdb;
+
+import javax.ejb.ActivationConfigProperty;
+import javax.ejb.MessageDriven;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+import javax.jms.ObjectMessage;
+
+import br.com.fiap.bean.LivrosBean;
+import br.com.fiap.entity.Livros;
+
+@MessageDriven(activationConfig = {
+		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
+		@ActivationConfigProperty(propertyName = "destination", propertyValue = "queue/ExemploQueue") })
+public class LivrosMDB implements MessageListener {
+
+	public LivrosMDB() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public void onMessage(Message message) {
+		ObjectMessage object = (ObjectMessage) message;
+		
+		try {
+			Livros livro = (Livros) object.getObject();
+			
+			LivrosBean bean = new LivrosBean();
+			bean.add(livro);
+			
+		} catch (JMSException e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

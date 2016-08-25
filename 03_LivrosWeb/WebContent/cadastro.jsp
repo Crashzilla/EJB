@@ -9,7 +9,7 @@
 <body>
 	<h1>Cadastro de Livros</h1>
 
-	<form action="livros" method="post">
+	<form action="mdb" method="get">
 		Título:<br/> 
 		<input type="text" name="titulo"> <br/>
 		Autor:<br/>
